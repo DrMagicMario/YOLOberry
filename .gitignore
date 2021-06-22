@@ -1,10 +1,6 @@
-
-.DS_Store
 datasets
+*.DS_Store
 *.json
 *.jpg
 *.swp
-*.swp
-datasets/.DS_Store
-datasets/VOC2012/.DS_Store
 *.xml
