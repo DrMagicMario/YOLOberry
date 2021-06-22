@@ -1,5 +1,5 @@
 
 .DS_Store
-datasets/.DS_Store
+datasets
 *.json
 *.jpg
