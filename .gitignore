@@ -4,3 +4,7 @@ datasets
 *.json
 *.jpg
 *.swp
+*.swp
+datasets/.DS_Store
+datasets/VOC2012/.DS_Store
+*.xml
