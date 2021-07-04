@@ -1,11 +1,11 @@
 #!/usr/local/bin/julia
 
-using Pkg
-Pkg.activate("."); Pkg.instantiate();
-
 using ObjectDetector, FileIO, ImageView
 
 #=
+using Pkg
+Pkg.activate("."); Pkg.instantiate();
+
 println("predicting.....")
 
 yolomod = YOLO.v3_608_COCO(batch=1, silent=true) # Load the YOLOv3-tiny model pretrained on COCO, with a batch size of 1
