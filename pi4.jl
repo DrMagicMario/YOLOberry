@@ -1,10 +1,10 @@
 #!/usr/local/bin/julia
 
+using Pkg
+Pkg.activate("."); Pkg.instantiate();
 using ObjectDetector, FileIO, ImageView
 
 #=
-using Pkg
-Pkg.activate("."); Pkg.instantiate();
 
 println("predicting.....")
 
