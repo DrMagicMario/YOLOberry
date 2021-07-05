@@ -745,7 +745,7 @@ uuid = "ca575930-c2e3-43a9-ace4-1e988b2c1908"
 
 [[ObjectDetector]]
 deps = ["BenchmarkTools", "Flux", "ImageCore", "ImageDraw", "ImageFiltering", "ImageTransformations", "LazyArtifacts", "Pkg", "PrettyTables"]
-path = "dev/ObjectDetector"
+git-tree-sha1 = "e2ae7bf368db35cbe3bde85e0668172a177337c8"
 uuid = "3dfc1049-5314-49cf-8447-288dfd02f9fb"
 version = "0.2.3"
 

@@ -1,10 +1,11 @@
 #!/usr/local/bin/julia
 
 using Pkg
-Pkg.activate("."); Pkg.instantiate();
+Pkg.activate("ObjDet"); Pkg.instantiate();
 using ObjectDetector, FileIO, ImageView
 
 
+#=
 println("predicting.....")
 
 yolomod = YOLO.v3_608_COCO(batch=1, silent=true) # Load the YOLOv3-tiny model pretrained on COCO, with a batch size of 1
@@ -21,14 +22,14 @@ imgBoxes = drawBoxes(img, yolomod, padding, res)
 imshow(imgBoxes)
 save("result.png", imgBoxes)
 println("Done")
+=#
 
-#=
 println("benchmarking....")
 ObjectDetector.benchmark()
 println("done benchmarking")
-=#
 
+#=
 while (true)
 	sleep(1)
 end
-
+=#
