@@ -4,7 +4,6 @@ using Pkg
 Pkg.activate("."); Pkg.instantiate();
 using ObjectDetector, FileIO, ImageView
 
-#=
 
 println("predicting.....")
 
@@ -22,10 +21,14 @@ imgBoxes = drawBoxes(img, yolomod, padding, res)
 imshow(imgBoxes)
 save("result.png", imgBoxes)
 println("Done")
-=#
 
+#=
 println("benchmarking....")
 ObjectDetector.benchmark()
 println("done benchmarking")
+=#
 
+while (true)
+	sleep(1)
+end
 
