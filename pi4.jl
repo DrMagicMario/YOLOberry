@@ -28,7 +28,4 @@ println("benchmarking....")
 ObjectDetector.benchmark()
 println("done benchmarking")
 
-while (true)
-  sleep(1)
-end
 

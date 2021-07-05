@@ -87,7 +87,6 @@ function benchmark(;select = [1,3,4,5,6], reverseAfter::Bool = false)
         modelname = string(pretrained)
         @info "Loading and running $modelname"
         table[i,:] = [modelname false "-" "-" "-" "-"]
-	println("here")
         t_load = @elapsed begin
             mod = pretrained(silent=true)
         end
